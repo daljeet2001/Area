@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Success(){
     return(
-        <motion.div  viewport={{ once: true }}  initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col items-start gap-20 pt-20 pb-30 border-t border-[#E9E9E9]">
+        <motion.div  viewport={{ once: true }}  initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col items-start gap-20 pt-20 pb-30 border-t border-[#E9E9E9]">
 
             <div className="w-full flex items-start justify-between">
 

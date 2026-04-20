@@ -1,20 +1,20 @@
-import { easeOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { IoCheckmarkOutline } from "react-icons/io5";
 
 export default function Why() {
     return (
 
-        <motion.div viewport={{ once: true }}  initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col gap-5 items-start pb-30">
+        <motion.div viewport={{ once: true }}  initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col gap-5 items-start pb-30 px-4 md:px-10">
 
-            <motion.div className="flex flex-col items-center gap-10 px-60 py-20 border-t border-[#E9E9E9]">
+            <motion.div className="flex flex-col items-center  px-0 md:px-20 lg:px-60 py-20 border-t border-[#E9E9E9]">
 
-                <div className="flex flex-col items-center gap-10">
+                <div className="flex flex-col items-center gap-[30px] md:gap-10">
 
-                    <div className="text-xs [font-family:var(--font-dm)] text-[#485C11]">
+                    <div className=" text-[10.5px] md:text-[11px] lg:text-xs [font-family:var(--font-dm)] text-[#485C11]">
                         Specs
                     </div>
 
-                    <div className="[font-family:var(--font-crimson)] text-6xl leading:[0.9] ">
+                    <div className="[font-family:var(--font-crimson)] text-[50px] md:text-[54px] lg:text-6xl leading:[0.9] ">
                         Why Choose Area?
                     </div>
 
@@ -34,97 +34,97 @@ export default function Why() {
             </motion.div>
 
 
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
 
-                <div className="flex flex-col items-start w-[463.33px] text-[#6F6F6F] rounded-2xl overflow-hidden hover:ring hover:ring-[#E9E9E9]  hover:text-black hover:shadow-xl hover:rounded-2xl">
+                <div className="flex flex-col items-start w-full  text-[#6F6F6F] rounded-2xl overflow-hidden hover:ring hover:ring-[#E9E9E9]  hover:text-black hover:shadow-xl hover:rounded-2xl">
 
                     <div className="h-24 w-full px-[30px] py-10 flex items-center justify-center [font-family:var(--font-dm)] font-medium text-[25.71px] leading-[1.2] box-border w-full  border-b border-[#929292] ">Area </div>
 
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Ultra-fast browsing</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Ultra-fast browsing</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Advanced AI insights</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Advanced AI insights</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Seamless integration</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Seamless integration</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Advanced AI insights</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Advanced AI insights</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Ultra-fast browsing</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Ultra-fast browsing</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Full UTF-8 support</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Full UTF-8 support</p>
                     </div>
 
                 </div>
 
-                    <div className="flex flex-col items-start w-[463.33px]  text-[#6F6F6F] rounded-2xl overflow-hidden hover:ring hover:ring-[#E9E9E9]  hover:text-black hover:shadow-xl hover:rounded-2xl">
+                    <div className="flex flex-col items-start w-full  text-[#6F6F6F] rounded-2xl overflow-hidden hover:ring hover:ring-[#E9E9E9]  hover:text-black hover:shadow-xl hover:rounded-2xl">
 
                     <div className="h-24 w-full px-[30px] py-10 flex items-center justify-center [font-family:var(--font-dm)] font-medium text-[25.71px] leading-[1.2] box-border w-full  border-b border-[#929292]">WebSurge </div>
 
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Fast browsing</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Fast browsing</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full  border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Basic AI recommendations</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Basic AI recommendations</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Restricts customization</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Restricts customization</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Basic AI insights</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Basic AI insights</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full   border-b  border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Fast browsing</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Fast browsing</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Potential display errors</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Potential display errors</p>
                     </div>
 
                 </div>
 
-                    <div className="flex flex-col items-start w-[463.33px] hover:ring hover:ring-[#E9E9E9]  text-[#6F6F6F] rounded-2xl overflow-hidden   hover:text-black hover:shadow-xl hover:rounded-2xl">
+                    <div className="flex flex-col items-start w-full  hover:ring hover:ring-[#E9E9E9]  text-[#6F6F6F] rounded-2xl overflow-hidden   hover:text-black hover:shadow-xl hover:rounded-2xl">
 
                     <div className="h-24 w-full px-[30px] py-10 flex items-center justify-center [font-family:var(--font-dm)] font-medium text-[25.71px] leading-[1.2] box-border w-full  border-b border-[#929292]">HyperView </div>
 
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Moderate speeds</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Moderate speeds</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">No AI assistance</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">No AI assistance</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Steep learning curve</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Steep learning curve</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">No AI assistance</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">No AI assistance</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full border-b border-[#E9E9E9]">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Moderate speeds</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Moderate speeds</p>
                     </div>
                     <div className="flex items-center gap-2 py-8 px-[30px] w-full">
                         <IoCheckmarkOutline size={12.25} />
-                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-xs">Partial UTF-8 support</p>
+                        <p className="[font-family:var(--font-dm)] leading-[1.4] text-[10.5px] md:text-[11px] lg:text-xs">Partial UTF-8 support</p>
                     </div>
 
                 </div>

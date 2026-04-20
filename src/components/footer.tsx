@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
     return (
-        <motion.div viewport={{ once: true }}   initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col w-full items-start justify-end gap-20 box-border pt-10 pb-5  border-t border-[#E9E9E9]">
+        <motion.div viewport={{ once: true }}   initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.8,ease:"easeOut",delay:0.2}} className="flex flex-col w-full items-start justify-end gap-20 box-border pt-10 pb-10  border-t border-[#E9E9E9]">
 
             <div className="flex items-center justify-between">
 

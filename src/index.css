@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-    --font-crimson:"Crimson Text",serif;
-    --font-dm:"DM Sans",sans-serif;
-    --font-roboto:"Roboto Mono",monospace;
+
+  /* --breakpoint-sm: 640px;
+  --breakpoint-md: 800px;
+  --breakpoint-lg: 1280px;
+  --breakpoint-xl: 1536px; */
+
+
+  --font-crimson: "Crimson Text", serif;
+  --font-dm: "DM Sans", sans-serif;
+  --font-roboto: "Roboto Mono", monospace;
 }
