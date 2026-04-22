@@ -32,17 +32,17 @@ const segoerpighe = [
 export default function Code() {
     return (
         <>
-            <motion.div viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }} className="flex flex-col">
+            <motion.div viewport={{ once: true }} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeOut" }} className="flex flex-col px-4 md:px-10">
 
                 <motion.div className="pt-20 pb-[60px] flex flex-col items-start gap-[50px]">
 
-                    <div className="flex flex-col items-start gap-[50px]">
+                    <div className="flex flex-col items-start gap-[30px] md:gap-[50px]">
 
-                        <div className="text-xs [font-family:var(--font-dm)] text-[#485C11]">
+                        <div className="text-[10.5px] md:text-[11px] lg:text-xs [font-family:var(--font-dm)] text-[#485C11]">
                             Benefits
                         </div>
 
-                        <div className="text-6xl [font-family:var(--font-crimson)] leading-[0.9]">
+                        <div className="text-[50px] md:text-[54px] lg:text-6xl [font-family:var(--font-crimson)] leading-[0.9]">
                             We’ve cracked the code.
                         </div>
 
@@ -52,9 +52,9 @@ export default function Code() {
 
                     </div>
 
-                    <div className="pt-10 flex items-start gap-5 flex-wrap">
+                    <div className="pt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                         {segoerpighe.map((s, index) => (
-                            <div key={index} className="pt-10 pr-5 pb-10 pl-0 flex flex-col items-start gap-6 w-[332.5px] border-t border-[#E9E9E9]">
+                            <div key={index} className="pt-10 pr-5 pb-10 pl-0 flex flex-col items-start gap-6 w-full border-t border-[#E9E9E9]">
                                 <div>{s.icon}</div>
 
                                 <div className="flex flex-col items-start gap-5">
@@ -77,7 +77,7 @@ export default function Code() {
                 </motion.div>
 
                 <motion.div className="pb-30" >
-                    <img className="w-[1390px] h-[620px] object-cover rounded-4xl" src="/areaimg1.webp" />
+                    <img className="w-full h-[600px] lg:h-[620px] object-cover rounded-4xl" src="/areaimg1.webp" />
                 </motion.div>
 
             </motion.div>

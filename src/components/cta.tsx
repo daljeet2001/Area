@@ -3,9 +3,9 @@ import { GoArrowUpRight } from "react-icons/go";
 
 export default function CTA() {
     return (
-        <motion.div viewport={{ once: true }}   initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col items-center gap-10 py-30 px-[300px] w-full">
+        <motion.div viewport={{ once: true }}   initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col items-center gap-10 py-30 px-0 md:px-25  lg:px-[300px] w-full">
 
-            <div className="[font-family:var(--font-crimson)] text-6xl leading-[0.9] ">
+            <div className="[font-family:var(--font-crimson)] text-[50px] md:text-[54px] lg:text-6xl leading-[0.9] ">
                 Connect with us
             </div>
             <div className="[font-family:var(--font-dm)] text-base leading-[1.3] text-[#6F6F6F]">

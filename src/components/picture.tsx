@@ -5,7 +5,7 @@ export default function Picture(){
     return(
         <motion.div viewport={{ once: true }}  className="w-full flex  lg:gap-5 pb-20 lg:pb-30 px-4 md:px-10 flex-wrap lg:flex-nowrap"  initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}}>
 
-            <div className=" flex flex-col items-start gap-10 pb-20 lg:pb-0 pt-[60px]  border-t border-[#E9E9E9] w-full">
+            <div className="flex flex-col items-start gap-10 pb-20 lg:pb-0 pt-[60px]  border-t border-[#E9E9E9] ">
 
                 <div className="flex flex-col items-start md:pr-20 gap-10 w-full">
                     <p className="[font-family:var(--font-crimson)] leading-[0.9] text-[50px] md:text-[54px] lg:text-[60px]">See the Big Picture</p>
@@ -49,13 +49,12 @@ export default function Picture(){
 
             </div>
 
-<div className="w-full">
-     <img className=" w-full lg:w-[685px] h-[711px] rounded-4xl object-cover " src="/area5.jpeg"/>
+<div className="w-full lg:w-[685px]">
+     <img className=" w-full h-[385.01px] md:h-[744px]  lg:h-[711px]  rounded-4xl object-cover " src="/area5.jpeg"/>
 </div>
            
-        
-
-
+    
         </motion.div>
     )
 }
+

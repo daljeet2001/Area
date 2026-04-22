@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 export default function Success(){
     return(
-        <motion.div  viewport={{ once: true }}  initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col items-start gap-20 pt-20 pb-30 border-t border-[#E9E9E9]">
+        <motion.div  viewport={{ once: true }}  initial={{opacity:0,y:10}} whileInView={{opacity:1,y:0}} transition={{duration:0.8,ease:"easeOut"}} className="flex flex-col items-start gap-20 pt-20 pb-25 md:pb-30 border-t border-[#E9E9E9] px-4 md:px-10">
 
-            <div className="w-full flex items-start justify-between">
+            <div className="w-full flex flex-col md:flex-row items-start gap-10 md:gap-0  md:justify-between">
 
-                <div className="[font-family:var(--font-crimson)] text-6xl leading-[0.9]">
+                <div className="[font-family:var(--font-crimson)] text-[50px] md:text-[54px] lg:text-6xl leading-[0.9]">
                     Map Your Success
                 </div>
 
@@ -16,10 +16,10 @@ export default function Success(){
 
             </div>
 
-            <div className="items-start grid grid-cols-3 gap-5 w-full">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-full">
 
                 <div className="flex flex-col items-start gap-[60px] pt-[60px] pr-[30px] pb-5 border-t border-[#E9E9E9] ">
-                    <div className="text-[80px] [font-family:var(--font-dm)] text-[#929292]">01</div>
+                    <div className="text-[64px] md:text-[80px] [font-family:var(--font-dm)] text-[#929292]">01</div>
 
                     <div className="flex flex-col items-start gap-5">
                         <div className="text-lg [font-family:var(--font-crimson)]">Get Started</div>
@@ -30,7 +30,7 @@ export default function Success(){
                 </div>
 
                         <div className="flex flex-col items-start gap-[60px] pt-[60px] pr-[30px] pb-5 border-t border-[#E9E9E9]">
-                    <div className="text-[80px] [font-family:var(--font-dm)] text-[#929292]">02</div>
+                    <div className=" text-[64px] md:text-[80px] [font-family:var(--font-dm)] text-[#929292]">02</div>
 
                     <div className="flex flex-col items-start gap-5">
                         <div className="text-lg [font-family:var(--font-crimson)]">Customize and Configure</div>
@@ -41,7 +41,7 @@ export default function Success(){
                 </div>
 
                         <div className="flex flex-col items-start gap-[60px] pt-[60px] pr-[30px] pb-5 border-t border-[#E9E9E9]">
-                    <div className="text-[80px] [font-family:var(--font-dm)] text-[#929292]">03</div>
+                    <div className=" text-[64px] md:text-[80px] [font-family:var(--font-dm)] text-[#929292]">03</div>
 
                     <div className="flex flex-col items-start gap-5">
                         <div className="text-lg [font-family:var(--font-crimson)]">Grow Your Business</div>
