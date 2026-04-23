@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Header(){
     return(
-        <div className="flex flex-col gap-20 md:gap-25 h-[666.59px] md:h-[738px]  overflow-hidden px-4 md:px-10">
+        <div className="flex flex-col gap-20 md:gap-25 h-[666.59px]  pt-30 md:pt-0 md:h-[738px]  overflow-hidden px-4 md:px-10">
 
             <motion.h1 initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.8, ease:"easeOut"}} className="[font-family:var(--font-crimson)] text-[76px] md:text-[140px] lg:text-[160px] text-center leading-[0.85] tracking-[-0.05em] ">
                 Browse everything.

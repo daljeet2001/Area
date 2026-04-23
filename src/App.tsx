@@ -10,6 +10,7 @@ import Picture from './components/picture';
 import Quote from './components/quote';
 import Success from './components/success';
 import Footer from './components/footer';
+import Smallnav from './components/smallnav';
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
@@ -34,8 +35,14 @@ function App() {
             <motion.a href="#cta" whileHover={{ color: "#929292" }} transition={{ duration: 0.4, ease: "easeOut" }} className="cursor-pointer">Contact Us</motion.a>
           </div>
         </div>}
+<div className="hidden md:block">
+  <Navbar />
+</div>
 
-        {/* <Navbar /> */}
+<div className="block md:hidden">
+  <Smallnav/>
+</div>
+      
         <Header />
         <Trusted />
     <div id="code">

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Navbar() {
     return (
-        <div className="flex justify-between items-center pt-5 pb-20">
+        <div className="flex justify-between items-center pt-5 pb-20 px-10">
 
             <p className="[font-family:var(--font-dm)] text-3xl font-medium cursor-pointer">Area</p>
 
