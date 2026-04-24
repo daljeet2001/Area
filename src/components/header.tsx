@@ -9,15 +9,15 @@ export default function Header(){
                 Browse everything.
             </motion.h1> 
 
-
+{/* rounded-[32px] p-[10px] rounded-3xl top-5*/}
             <motion.div  className="relative block md:hidden  ">
 
-                <motion.div initial={{y:50,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:1, ease:"easeOut",delay:0.2}} className="relative z-25 border-2 border-[#929292] w-[300px] 
-                 md:w-[676.55px]  lg:w-[907px] h-[489.82px] md:h-[422.94px] lg:h-[644px]   mx-auto bg-black rounded-4xl p-2.5 md:p-3.5 lg:p-4.5 shadow-2xl">
+                <motion.div initial={{y:50,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:1, ease:"easeOut",delay:0.2}} className="relative z-25 border border-[#929292] w-[270px] 
+                 aspect-[9/19.5] rounded-[32px]   mx-auto bg-black p-[10px] lg:p-4.5 shadow-2xl">
 
                     <div className="absolute top-5 left-1/2 -translate-x-1/2 bg-black h-[22.19px] w-[94.06px] rounded-4xl "></div>
 
-                <div className="rounded-2xl overflow-hidden w-full h-full">
+                <div className="rounded-3xl overflow-hidden w-full h-full">
                     <img src="/Umbria.webp" className="w-full h-full object-cover"/>
                 </div>
                 </motion.div>
