@@ -12,7 +12,7 @@ export default function Header(){
 {/* rounded-[32px] p-[10px] rounded-3xl top-5*/}
             <motion.div  className="relative block md:hidden  ">
 
-                <motion.div initial={{y:50,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:1, ease:"easeOut",delay:0.2}} className="relative z-25 border border-[#929292] w-[270px] 
+                <motion.div initial={{y:50,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:1, ease:"easeOut",delay:0.2}} className="relative z-25 border border-[#929292] w-[290px] 
                  aspect-[9/19.5] rounded-[32px]   mx-auto bg-black p-[10px] lg:p-4.5 shadow-2xl">
 
                     <div className="absolute top-5 left-1/2 -translate-x-1/2 bg-black h-[22.19px] w-[94.06px] rounded-4xl "></div>
@@ -21,7 +21,7 @@ export default function Header(){
                     <img src="/Umbria.webp" className="w-full h-full object-cover"/>
                 </div>
                 </motion.div>
-                 <motion.div initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.8, ease:"easeOut"}} className="w-full h-[362px] absolute right-0 top-[62%] md:top-1/2 -translate-y-1/2 rounded-4xl bg-[#8E9C78]"></motion.div>
+                 <motion.div initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.8, ease:"easeOut"}} className="w-full h-[670px] absolute right-0 top-[62%] md:top-1/2 -translate-y-1/2 rounded-4xl bg-[#8E9C78]"></motion.div>
 
             </motion.div>
 
