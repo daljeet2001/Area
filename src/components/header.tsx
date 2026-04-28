@@ -18,7 +18,7 @@ export default function Header(){
                     <div className="absolute top-[12px] left-1/2 -translate-x-1/2 bg-black h-[28px] w-[35%] rounded-4xl "></div>
 
                 <div className="rounded-[38px] overflow-hidden w-full h-full">
-                    <img src="/header.avif" className="w-full h-full object-fill"/>
+                    <img src="/sm.avif" className="w-full h-full object-fill"/>
                 </div>
                 </motion.div>
                  <motion.div initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.8, ease:"easeOut"}} className="w-full h-[108.42%] absolute right-0 top-[62%] md:top-1/2 -translate-y-1/2 rounded-4xl bg-[#8E9C78]"></motion.div>
