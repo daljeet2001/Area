@@ -17,8 +17,8 @@ export default function Header(){
 
                     <div className="absolute top-[12px] left-1/2 -translate-x-1/2 bg-black h-[28px] w-[35%] rounded-4xl "></div>
 
-                <div className="rounded-[38px] overflow-hidden w-full h-full">
-                    <img src="/sm.avif" className="w-full h-full object-fill"/>
+                <div className="rounded-[38px]  overflow-hidden w-full h-[448.76px]">
+                    <img src="/header.avif" className=" w-full h-full object-fill"/>
                 </div>
                 </motion.div>
                  <motion.div initial={{y:10,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.8, ease:"easeOut"}} className="w-full h-[108.42%] absolute right-0 top-[62%] md:top-1/2 -translate-y-1/2 rounded-4xl bg-[#8E9C78]"></motion.div>
@@ -30,7 +30,7 @@ export default function Header(){
                 <motion.div initial={{y:50,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:1, ease:"easeOut",delay:0.2}} className="relative z-25 border-2 border-[#929292] w-[270px]
                  md:w-[676.55px]  lg:w-[907px] h-[541.82px] md:h-[522.94px] lg:h-[644px]   mx-auto bg-black rounded-3xl p-2.5 md:p-3.5 lg:p-4.5 shadow-2xl">
 
-                <div className="rounded-2xl overflow-hidden w-full h-full">
+                <div className="rounded-2xl  overflow-hidden w-full h-full">
                     <img src="/header.avif" className="w-full h-full object-cover"/>
                 </div>
                 </motion.div>
